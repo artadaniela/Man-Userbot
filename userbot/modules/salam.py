@@ -11,7 +11,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 @register(outgoing=True, pattern="^.p(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Assalamualaikum Dulu Biar Sopan**")
+    await typew.edit("**Assalamualaikum Tod, ngewe kuy**")
 
 
 @register(outgoing=True, pattern=r"^\.pe(?: |$)(.*)")
@@ -26,7 +26,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit(f"**Haii Salken Saya {DEFAULTUSER}**")
     sleep(2)
-    await typew.edit("**Assalamualaikum...**")
+    await typew.edit("**Ngewe Kuy...**")
 
 
 @register(outgoing=True, pattern=r"^\.l(?: |$)(.*)")
@@ -39,7 +39,7 @@ CMD_HELP.update(
     {
         "salam": "**Plugin : **`salam`\
         \n\n  •  **Syntax :** `.p`\
-        \n  •  **Function : **Assalamualaikum Dulu Biar Sopan..\
+        \n  •  **Function : **Assalamualaikum Tod..\
         \n\n  •  **Syntax :** `.pe`\
         \n  •  **Function : **salam Kenal dan salam\
         \n\n  •  **Syntax :** `.l`\
