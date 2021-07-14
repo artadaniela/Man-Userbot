@@ -71,15 +71,15 @@ async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("I LOVEE YOUUU 💕")
         await e.edit("💝💘💓💗")
-        await e.edit("💞💕💗💘")
+        await e.edit("STELLA")
         await e.edit("💝💘💓💗")
         await e.edit("💞💕💗💘")
         await e.edit("💘💞💗💕")
-        await e.edit("💘💞💕💗")
+        await e.edit("NIEL")
         await e.edit("SAYANG KAMU 💝💖💘")
         await e.edit("💝💘💓💗")
         await e.edit("💞💕💗💘")
-        await e.edit("💘💞💕💗")
+        await e.edit("NIEL")
         await e.edit("SAYANG")
         await e.edit("KAMU")
         await e.edit("SELAMANYA 💕")
@@ -459,7 +459,7 @@ async def _(event):
             "`Mengirim Cintaku.. 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 84%\n█████████████████████▒▒▒▒ `",
             "`Mengirim Cintaku.. 100%\n█████████CINTAKU███████████ `",
-            f"`Cintaku Sekarang Sepenuhnya Terkirim Padamu, Dan Sekarang Aku Sangat Mencintai Mu, I Love You 💞`",
+            f"`Cintaku Sekarang Sepenuhnya Terkirim Padamu, Dan Sekarang Aku Sangat Mencintai Mu, I Love You STELLA 💞`",
         ]
 
         animation_interval = 2
